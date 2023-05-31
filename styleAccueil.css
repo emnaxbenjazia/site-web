@@ -5,7 +5,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-
 section {
     position: relative;
     width:100%;
@@ -13,7 +12,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-image: url("fryingpan.png");
+    background: url("images/backgroundAccueil.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,23 +26,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
 }
 
-header.logo {
-    position: relative;
-    color: #000;
-    font-size: 30px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
-}
 
 
 header .navigation a {
-    color: #000;
+    color: #431212;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
     font-size: small;
     letter-spacing: 1px;
     transition: 0.3s;
@@ -51,7 +42,8 @@ header .navigation a {
     border-radius: 20px;
     padding: 2px 15px;
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid #431212;
+    ;
   }
   
   header .navigation a:not(:last-child) {
@@ -67,11 +59,12 @@ header .navigation a {
 
 .content {
     max-width: 650px;
-    margin: 60px 100px;
+    margin: 50px 100px;
+    margin-bottom: 30px;
 }
 
 .content .info h2{
-    color: #1e9826;
+    color: #1d6522;
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 800;
@@ -118,7 +111,7 @@ header .navigation a {
 .media-icons a{
     position: relative;
     color: #fac13c;
-    font-size: 30px;
+    font-size: 40px;
     transition:0.3s;
     transition-property: transform;
 }
@@ -128,5 +121,6 @@ header .navigation a {
 }
 
 .media-icons a:hover{
-    transform: scale(1.5);
+    color: orangered;
 }
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign up</title>
+    <link href="signup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="js/signupjs.js" defer> </script>
+
+</head>
+
+<body>
+    <div class="auth-wrapper">
+        <div class="auth-inner">
+            <div class="card">
+                <div class="card-body">
+
+                    <form id="signup" class="form-signup" name="signup" action="process-signup.php" method="POST" novalidate>
+                        <div class="logo-container">
+                            <img src="images/logoFoodFrenzy.png" alt="Logo du site web" style="height: 100px;" style="width:120px">
+                        </div>
+
+                        <h2 class="card-title">Registration </h2>
+                        <p>Create your account</p>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6 mb-1">
+                                    <input type="text" class="form-control" id="firstname" name="firstname"
+                                        placeholder="First Name">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="lastname" name="lastname"
+                                        placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" name="email"
+                                placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password_confirmation"
+                                name="password_confirmation" placeholder="Confirm Password">
+                        </div>
+
+                        <div class="form-group ">
+                            <label>
+                                <input type="checkbox" name="" required>
+                                I accept the <a href="#">terms of use</a> & <a href="#">privacy policy</a>
+                            </label>
+                        </div>
+                        <input type="submit" class="btn btn-success btn-block" name="" value="Register Now">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

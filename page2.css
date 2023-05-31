@@ -1,0 +1,86 @@
+.auth-wrapper {
+    display: flex;
+    flex-basis: 100%;
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+    width: 100%;
+    background: url('images/fondf.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: left ;
+    overflow: hidden; 
+  }
+
+  .auth-inner {
+    width: 100%;
+    position: relative;
+    max-width: 400px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+  }
+.card{
+align-self: left;
+    width: 400px;
+   margin-left: 180px;
+
+
+}
+
+.form-signup{
+margin:0 auto;
+max-width: 400px;
+position: center;
+background-color: white;
+padding:15px;
+
+}
+
+
+.form-signup h2{
+    text-align:center;
+
+}
+.form-signup p{
+    text-align:center;
+}
+
+.form-group label{
+    padding-top: 10px;
+}
+.button1 a{
+  position: fixed;
+  bottom: 10px;
+  right:0px;
+  padding:15px;
+  text-align: center;
+  margin:4px 2px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #431212;
+  font-weight: 600;
+  font-size: small;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  transition-property: background;
+  border-radius: 20px;
+  padding: 2px 15px;
+  background-color: transparent;
+  border: 1px solid #431212;
+}
+
+.button1 a:hover {
+  background: rgb(251, 224, 155);
+}
+
+
+
+
+
